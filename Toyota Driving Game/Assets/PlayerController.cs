@@ -16,8 +16,18 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+            return;
+        }
         position.x += Input.GetAxis("Horizontal") * speed;
         position.y += Input.GetAxis("Vertical") * speed;
         transform.position = position;
 	}
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "RedDiamond") health--;
+    }
 }
