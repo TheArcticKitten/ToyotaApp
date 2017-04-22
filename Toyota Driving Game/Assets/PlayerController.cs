@@ -4,23 +4,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-    private Rigidbody2D rb2d;
+    private int health;
+    public float startHealth;
     public float speed;
+    Vector3 position;
 	// Use this for initialization
 	void Start () {
-        rb2d = GetComponent<Rigidbody2D>();
+        health = (int)startHealth;
+        position = transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        position.x += Input.GetAxis("Horizontal") * speed;
+        position.y += Input.GetAxis("Vertical") * speed;
+        transform.position = position;
 	}
-
-    void FixedUpdate()
-    {
-        float moveHoriz = Input.GetAxis("Horizontal");
-        float moveVert = Input.GetAxis("Vertical");
-        Vector2 movement = new Vector2(moveHoriz, moveVert);
-        rb2d.AddForce(movement*speed);
-    }
 }
