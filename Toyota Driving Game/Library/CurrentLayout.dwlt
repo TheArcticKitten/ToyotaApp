@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 323
     height: 442
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -364,13 +364,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\mataa\Desktop\ToyotaApp\Toyota Driving Game
+  m_LastProjectPath: C:\Users\Noah Ortega\Desktop\Programming\EarthHack\ToyotaApp\Toyota
+    Driving Game
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26250000
-    m_LastClickedID: 9510
-    m_ExpandedIDs: 000000002625000000ca9a3bffffff7f
+    m_SelectedIDs: 40250000
+    m_LastClickedID: 9536
+    m_ExpandedIDs: 000000004025000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -398,7 +399,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026250000
+    m_ExpandedIDs: 0000000040250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -514,23 +515,23 @@ MonoBehaviour:
     height: 421
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 46adffff
-    m_LastClickedID: -21178
-    m_ExpandedIDs: 7afbffff7cfbffff00000000ac250000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 54fbffff00000000ce250000dc250000ec250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Main Camera
+      m_OriginalName: Main Camera
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9708
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -571,9 +572,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.795303, y: -1.2324955, z: 0}
+    m_Target: {x: 5.6065073, y: -1.2324955, z: 0}
     speed: 2
-    m_Value: {x: 11.795303, y: -1.2324955, z: 0}
+    m_Value: {x: 5.6065073, y: -1.2324955, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -600,9 +601,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 68.769165
+    m_Target: 62.18737
     speed: 2
-    m_Value: 68.769165
+    m_Value: 62.18737
   m_Ortho:
     m_Target: 1
     speed: 2
