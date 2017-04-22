@@ -13,7 +13,7 @@ public class MoveScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.Translate(new Vector3(velX, velY, 0));
-        if (transform.position.y <= -16.5) Destroy(gameObject);
+        //if (transform.position.y <= -16.5) Destroy(gameObject);
 	}
 
     void OnCollisionEnter2D(Collision2D collision)
