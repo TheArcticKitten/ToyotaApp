@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
@@ -13,10 +14,11 @@ public class PlayerController : MonoBehaviour {
     Vector3 position;
 	// Use this for initialization
 	void Start () {
-        xBound = 30.3f;
+        xBound = 28.6f;
         yBound = 15.5f;
         health = (int)startHealth;
         position = transform.position;
+        if (Application.isMobilePlatform) speed *= 6;
 	}
 	
 	// Update is called once per frame
@@ -26,18 +28,37 @@ public class PlayerController : MonoBehaviour {
             Destroy(gameObject);
             return;
         }
-        position.x += Input.GetAxis("Horizontal") * speed;
-        if (position.x >= xBound) position.x = xBound;
+        if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
+        {
+            position.x += Input.GetAxis("Horizontal") * speed;
+            position.y += Input.GetAxis("Vertical") * speed;
+            if (position.x >= xBound) position.x = xBound;
+            if (position.x <= -xBound) position.x = -xBound;
+            if (position.y >= yBound) position.y = yBound;
+            if (position.y <= -yBound) position.y = -yBound;
+            transform.position = position;
+        }
+        else if(Application.isMobilePlatform)
+        {
+            Touch first = Input.GetTouch(0);
+          //  if (first.phase == TouchPhase.Stationary || first.phase == TouchPhase.Moved)
+            //{
+                Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(first.position.x, first.position.y, 10));
+                transform.position = Vector3.Lerp(transform.position, touchPosition, Time.smoothDeltaTime);
+            //}
+        }
+      /*  if (position.x >= xBound) position.x = xBound;
         if (position.x <= -xBound) position.x = -xBound;
         if (position.y >= yBound) position.y = yBound;
         if (position.y <= -yBound) position.y = -yBound;
+        transform.position = position;*/
 
-        position.y += Input.GetAxis("Vertical") * speed;
-        transform.position = position;
-	}
+
+    }
 
     void OnGUI()
     {
+        if (inMenu) return;
         for (int i = 0; i < health; i++)
         {
             Rect oRect = new Rect(54*i, 1020, 50, 50);
@@ -48,5 +69,6 @@ public class PlayerController : MonoBehaviour {
     {
         if (!inMenu && collision.gameObject.tag == "RedDiamond") health--;
         else if (!inMenu && collision.gameObject.tag == "HPU" && health <= 4) health++;
+        else if (inMenu && collision.gameObject.tag == "DS1") Application.LoadLevel(1);
     }
 }

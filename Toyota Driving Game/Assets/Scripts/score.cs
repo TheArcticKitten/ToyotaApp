@@ -8,7 +8,7 @@ public class score : MonoBehaviour {
     int counter = 0, counter2 = 0;
 	// Use this for initialization
 	void Start () {
-		
+        if (Application.isMobilePlatform) mygui.fontSize *= 2;
 	}
 	
 	// Update is called once per frame
