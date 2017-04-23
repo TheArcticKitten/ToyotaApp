@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour {
     public float startHealth;
     public float speed;
     public bool inMenu;
+    public Text textScore;
     public Texture2D img;
     private float xBound, yBound;
     Vector3 position;
@@ -41,19 +43,9 @@ public class PlayerController : MonoBehaviour {
         else if(Application.isMobilePlatform)
         {
             Touch first = Input.GetTouch(0);
-          //  if (first.phase == TouchPhase.Stationary || first.phase == TouchPhase.Moved)
-            //{
-                Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(first.position.x, first.position.y, 10));
-                transform.position = Vector3.Lerp(transform.position, touchPosition, Time.smoothDeltaTime);
-            //}
+            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(first.position.x, first.position.y, 10));
+            transform.position = Vector3.Lerp(transform.position, touchPosition, Time.smoothDeltaTime);
         }
-      /*  if (position.x >= xBound) position.x = xBound;
-        if (position.x <= -xBound) position.x = -xBound;
-        if (position.y >= yBound) position.y = yBound;
-        if (position.y <= -yBound) position.y = -yBound;
-        transform.position = position;*/
-
-
     }
 
     void OnGUI()
@@ -69,6 +61,7 @@ public class PlayerController : MonoBehaviour {
     {
         if (!inMenu && collision.gameObject.tag == "RedDiamond") health--;
         else if (!inMenu && collision.gameObject.tag == "HPU" && health <= 4) health++;
-        else if (inMenu && collision.gameObject.tag == "DS1") Application.LoadLevel(1);
+        else if (!inMenu && collision.gameObject.tag == "SPU") textScore.GetComponent<score>().factCounter(2);//= System.Int32.Parse(score.text)* 2 + "";
+        else if (inMenu && collision.gameObject.tag == "DS1") SceneManager.LoadScene("One");
     }
 }

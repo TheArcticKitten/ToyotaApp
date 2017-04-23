@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,4 +20,9 @@ public class score : MonoBehaviour {
             mygui.text = counter2++ + "";
         }
 	}
+
+    internal void factCounter(int factor)
+    {
+        counter2 *= factor;
+    }
 }

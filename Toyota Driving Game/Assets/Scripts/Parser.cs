@@ -10,8 +10,9 @@ public class Parser : MonoBehaviour
     {
         Load(file);
         List<Row> list = GetRowList();
-
-        //Debug.Log(list.);
+        Row[] rows = list.ToArray();
+       // for(int i = 0; i < rows.Length;i++)
+        Debug.Log(rows[0].gpsDate);
     }
     public class Row
     {
