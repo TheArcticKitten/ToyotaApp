@@ -18,7 +18,7 @@ public class DataSetLoad : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Character")
         {
-            Application.LoadLevel(1);
+            UnityEngine.SceneManagement.SceneManager.LoadScene("One");
         }
     }
 }
