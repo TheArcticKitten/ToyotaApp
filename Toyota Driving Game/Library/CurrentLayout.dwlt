@@ -42,7 +42,7 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 44
@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 323
     height: 442
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -207,7 +207,7 @@ MonoBehaviour:
     y: 0
     width: 1088
     height: 731
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 45
@@ -231,8 +231,8 @@ MonoBehaviour:
     y: 0
     width: 1088
     height: 442
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 46
 --- !u!114 &11
@@ -253,8 +253,8 @@ MonoBehaviour:
     y: 0
     width: 765
     height: 442
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -369,9 +369,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6e250000
-    m_LastClickedID: 9582
-    m_ExpandedIDs: 00000000c424000000ca9a3bffffff7f
+    m_SelectedIDs: 70250000
+    m_LastClickedID: 9584
+    m_ExpandedIDs: 00000000c624000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -399,7 +399,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c4240000
+    m_ExpandedIDs: 00000000c6240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -515,23 +515,23 @@ MonoBehaviour:
     height: 421
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a250000
-    m_LastClickedID: 9610
-    m_ExpandedIDs: dafbffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 9cf5feff4af6feff42f7feff46f7feffeaf9feff98fafeff90fbfeff94fbfeff38faffffdafbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Canvas
+      m_OriginalName: Canvas
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -1480
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -567,14 +567,14 @@ MonoBehaviour:
     width: 761
     height: 421
   m_SceneLighting: 1
-  lastFramingTime: 1067.4810591455282
+  lastFramingTime: 246.25003160496323
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.1057243, y: -3.5433693, z: 0}
+    m_Target: {x: -8.160574, y: 28.940302, z: 0}
     speed: 2
-    m_Value: {x: -4.1057243, y: -3.5433693, z: 0}
+    m_Value: {x: -8.160574, y: 28.940302, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -601,9 +601,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 54.968826
+    m_Target: 841.87994
     speed: 2
-    m_Value: 54.968826
+    m_Value: 841.87994
   m_Ortho:
     m_Target: 1
     speed: 2
