@@ -85,9 +85,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ColorChanger.cs" />
+    <Compile Include="Assets\Scripts\CursorScript.cs" />
     <Compile Include="Assets\Scripts\DataSetLoad.cs" />
     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\MoveScript.cs" />
+    <Compile Include="Assets\Scripts\Parser.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\enemySmash.cs" />
     <Compile Include="Assets\Scripts\score.cs" />

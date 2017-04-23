@@ -9,9 +9,12 @@ public class PlayerController : MonoBehaviour {
     public float speed;
     public bool inMenu;
     public Texture2D img;
+    private float xBound, yBound;
     Vector3 position;
 	// Use this for initialization
 	void Start () {
+        xBound = 30.3f;
+        yBound = 15.5f;
         health = (int)startHealth;
         position = transform.position;
 	}
@@ -24,6 +27,11 @@ public class PlayerController : MonoBehaviour {
             return;
         }
         position.x += Input.GetAxis("Horizontal") * speed;
+        if (position.x >= xBound) position.x = xBound;
+        if (position.x <= -xBound) position.x = -xBound;
+        if (position.y >= yBound) position.y = yBound;
+        if (position.y <= -yBound) position.y = -yBound;
+
         position.y += Input.GetAxis("Vertical") * speed;
         transform.position = position;
 	}
@@ -32,7 +40,7 @@ public class PlayerController : MonoBehaviour {
     {
         for (int i = 0; i < health; i++)
         {
-            Rect oRect = new Rect(54*i, 350, 50, 50);
+            Rect oRect = new Rect(54*i, 1020, 50, 50);
             GUI.DrawTexture(oRect, img);
         }
     }
