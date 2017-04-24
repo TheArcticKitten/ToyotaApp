@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
         if (health <= 0)
         {
+            SceneManager.LoadScene("Menu");
             Destroy(gameObject);
             return;
         }

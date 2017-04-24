@@ -6,13 +6,17 @@ using System.Collections.Generic;
 public class Parser : MonoBehaviour
 {
     public TextAsset file;
+    public int counter = 0;
+    public Row[] rows;
     private void Start()
     {
         Load(file);
-        List<Row> list = GetRowList();
-        Row[] rows = list.ToArray();
-       // for(int i = 0; i < rows.Length;i++)
-        Debug.Log(rows[0].gpsDate);
+        rows = GetRowList().ToArray();
+    }
+
+    public void inc()
+    {
+        counter += 1;
     }
     public class Row
     {
