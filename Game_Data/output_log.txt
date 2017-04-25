@@ -1,0 +1,110 @@
+Mono path[0] = 'C:/Users/Noah Ortega/Desktop/Game_Data/Managed'
+Mono path[1] = 'C:/Users/Noah Ortega/Desktop/Game_Data/Mono'
+Mono config path = 'C:/Users/Noah Ortega/Desktop/Game_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Noah Ortega/Desktop/Game_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55153
+Multi-casting "[IP] 192.168.56.1 [Port] 55153 [Flags] 2 [Guid] 10397532 [EditorId] 2351441961 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-OOQLQF9) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55153]
+PlayerConnection already initialized - listening to [0.0.0.0:55153]
+Player data archive not found at `C:/Users/Noah Ortega/Desktop/Game_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.6909
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Noah Ortega\Desktop\Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Noah Ortega\Desktop\Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Noah Ortega\Desktop\Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Noah Ortega\Desktop\Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Noah Ortega\Desktop\Game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Noah Ortega\Desktop\Game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Noah Ortega\Desktop\Game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Noah Ortega\Desktop\Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.125 seconds
+Platform assembly: C:\Users\Noah Ortega\Desktop\Game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Noah Ortega\Desktop\Game_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.137778 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.651065 ms
+System memory in use before: 19.6 MB.
+System memory in use after: 19.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 327.
+Total: 0.272987 ms (FindLiveObjects: 0.022518 ms CreateObjectMapping: 0.013037 ms MarkObjects: 0.186074 ms  DeleteObjects: 0.050172 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.666469 ms
+System memory in use before: 19.5 MB.
+System memory in use after: 19.6 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 327.
+Total: 0.211753 ms (FindLiveObjects: 0.019753 ms CreateObjectMapping: 0.013037 ms MarkObjects: 0.173827 ms  DeleteObjects: 0.003950 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.556642 ms
+System memory in use before: 19.4 MB.
+System memory in use after: 19.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 383.
+Total: 0.253629 ms (FindLiveObjects: 0.022518 ms CreateObjectMapping: 0.013037 ms MarkObjects: 0.206617 ms  DeleteObjects: 0.009481 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.528593 ms
+System memory in use before: 19.4 MB.
+System memory in use after: 19.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 0.265876 ms (FindLiveObjects: 0.022913 ms CreateObjectMapping: 0.013037 ms MarkObjects: 0.179358 ms  DeleteObjects: 0.049382 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.359506 ms
+System memory in use before: 19.4 MB.
+System memory in use after: 19.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 0.215703 ms (FindLiveObjects: 0.020148 ms CreateObjectMapping: 0.013037 ms MarkObjects: 0.177382 ms  DeleteObjects: 0.003950 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.441284 ms
+System memory in use before: 19.4 MB.
+System memory in use after: 19.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 383.
+Total: 0.252839 ms (FindLiveObjects: 0.022123 ms CreateObjectMapping: 0.014617 ms MarkObjects: 0.204247 ms  DeleteObjects: 0.009876 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.412839 ms
+System memory in use before: 19.4 MB.
+System memory in use after: 19.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 0.242568 ms (FindLiveObjects: 0.023308 ms CreateObjectMapping: 0.013037 ms MarkObjects: 0.174222 ms  DeleteObjects: 0.030419 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.335802 ms
+System memory in use before: 19.4 MB.
+System memory in use after: 19.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 0.222024 ms (FindLiveObjects: 0.020543 ms CreateObjectMapping: 0.012641 ms MarkObjects: 0.183308 ms  DeleteObjects: 0.003950 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.433383 ms
+System memory in use before: 19.4 MB.
+System memory in use after: 19.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 383.
+Total: 0.250469 ms (FindLiveObjects: 0.023703 ms CreateObjectMapping: 0.028049 ms MarkObjects: 0.187654 ms  DeleteObjects: 0.010271 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 8ec0 -> priority: 1 
+  Thread -> id: 9404 -> priority: 1 
+  Thread -> id: 889c -> priority: 1 
+  Thread -> id: 6108 -> priority: 1 
